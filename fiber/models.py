@@ -16,7 +16,7 @@ from .app_settings import IMAGES_DIR, FILES_DIR, METADATA_PAGE_SCHEMA, METADATA_
     PAGE_MANAGER, CONTENT_ITEM_MANAGER
 from .utils.class_loader import load_class
 from .utils.fields import FiberURLField, FiberMarkupField, FiberHTMLField
-from .utils.json import JSONField
+from .utils.json_utils import JSONField
 from .utils.urls import get_named_url_from_quoted_url, is_quoted_url
 
 
