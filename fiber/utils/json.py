@@ -1,6 +1,6 @@
 from django import forms
 from django.db import models
-from django.utils import simplejson as json
+import json
 
 from fiber.utils.widgets import JSONWidget
 
