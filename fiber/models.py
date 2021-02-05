@@ -5,7 +5,7 @@ from django.core.urlresolvers import reverse
 from django.core.files.images import get_image_dimensions
 from django.db import models
 from django.utils.html import strip_tags
-from django.utils import simplejson
+import json as simplejson
 from django.utils.translation import ugettext
 from django.utils.translation import ugettext_lazy as _
 
